@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 	next();
 });
 
-const PORT = process.env.PORT || 9000
+const PORT = process.env.PORT || 8080
 app.listen(PORT, () => {
     console.log(`server is running ${PORT}`)
  
